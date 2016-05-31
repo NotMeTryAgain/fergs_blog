@@ -1,8 +1,11 @@
 <h1>Posts Index</h1>
 
+
 <% @posts.each do |post| %>
-  <ul>
-    <li><h3><%= post.title %><h3></li>
-    <li><%= post.text  %></li>
-  <ul>
+
+  <div class="callout">
+    <%= post.title %>
+    <%= post.text  %>
+  </div>
+
 <% end %>
