@@ -15,16 +15,17 @@
 //= require foundation
 //= require_tree .
 
-$(function(){ $(document).foundation();
+$(function(){ $(document).foundation(); });
 
-  jQuery(window).scroll(function() {
-      if (scroll >= 50) {
-          $('#logo-image').attr('src', 'assets/FergsGarage.jpg');
-          $(".important-class").addClass("padding-on-my-header");
-      }
-      if (scroll < 50) {
-          $(".important-class").removeClass("padding-on-my-header");
-          $('#logo-image').attr('src', 'assets/FergsGarage.jpg');
-      }
-  });
-});
+// jQuery(window).scroll(function() {
+//     if (scroll >= 50) {
+//       console.log("Topbar Big");
+//         $('#logo-image').attr('src', 'assets/FergsGarage.jpg');
+//         $(".important-class").addClass("padding-on-my-header");
+//     }
+//     if (scroll < 50) {
+//         $(".important-class").removeClass("padding-on-my-header");
+//         $('#logo-image').attr('src', '');
+//         console.log("Topbar SHould be small");
+//     }
+// });

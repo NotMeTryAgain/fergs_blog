@@ -36,11 +36,12 @@
     <div class="row content-section">
       <div class="main-content">
         <div class="small-12 medium-12 large-12 columns">
-          <% if current_user %>
+          <div class="header-fill"></div>
+          <!-- <% if current_user %>
             <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
           <% end %>
           <p class="notice"><%= notice %></p>
-          <p class="alert"><%= alert %></p>
+          <p class="alert"><%= alert %></p> -->
           <%= yield %>
         </div>
       </div>
